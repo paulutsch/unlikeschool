@@ -1,0 +1,22 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 50%;
+}
+
+.prev,
+.next {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.prev:hover,
+.next:hover {
+  color: #333;
+}

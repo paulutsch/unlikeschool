@@ -1,0 +1,7 @@
+node_modules/
+*.log
+coverage/
+
+# sensitive data
+data
+.env

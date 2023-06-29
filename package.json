@@ -1,0 +1,31 @@
+{
+  "name": "unlike.school",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.52.0",
+    "@types/react-datepicker": "^4.10.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.19.1",
+    "firebase-functions": "^3.23.0",
+    "framer-motion": "^10.2.3",
+    "next": "^13.2.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-datepicker": "^4.11.0",
+    "react-dom": "18.2.0",
+    "react-spinners": "^0.13.8",
+    "stripe": "^11.17.0"
+  },
+  "devDependencies": {
+    "eslint": "8.35.0",
+    "eslint-config-next": "^12.0.4"
+  }
+}

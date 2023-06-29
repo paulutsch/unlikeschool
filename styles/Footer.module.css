@@ -1,0 +1,27 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--footer-color);
+  color: var(--primary-background-color);
+  padding: 10px;
+  border-top: 1px solid var(--primary-background-color);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
