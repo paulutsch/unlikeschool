@@ -72,6 +72,7 @@ exports.createCheckout = functions.https.onCall(async (userData, context) => {
   return { id: session.id };
 });
 
+
 exports.checkoutComplete = functions.https.onRequest(async (req, res) => {
   if (req.method === "POST") {
     const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;

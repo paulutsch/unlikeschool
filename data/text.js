@@ -46,7 +46,6 @@ const textObject = {
       stepDescriptions: [
         "Kurs auswählen",
         "Startdatum auswählen",
-        "Account erstellen",
         "Persönliche Informationen",
       ],
       course: "Wähle einen Kurs",
@@ -632,7 +631,6 @@ const textObject = {
       stepDescriptions: [
         "Choose a Course",
         "Choose a Start Date",
-        "Create an Account",
         "Personal Information",
       ],
       course: "Choose a Course",
